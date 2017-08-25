@@ -1,0 +1,31 @@
+
+{
+ "environment": {
+   "name": "testName",
+   "description": "testDescription",
+   "labels": [
+     {
+       "Key1": "val1"
+     },{
+       "Key2": "val2"
+     },{
+       "Key3": "val3"
+     }
+   ]
+ },
+ "nodes": {
+   "Node 1": {
+     "cloud": "ec2",
+     "type": "t2.micro",
+     "image": "ami-5e63d13e",
+     "count": "1",
+     "bid": "123"
+   },
+   "Node 2": {
+     "cloud": "ebbnbbc2",
+     "type": "t2.kjl;kllkmicro",
+     "image": "ami-mkl;l;l;5e63d13e",
+     "count": "987891",
+     "bid": "123"
+   }
+ }
